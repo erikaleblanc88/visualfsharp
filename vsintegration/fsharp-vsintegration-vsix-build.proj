@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectFiles Include="Vsix\VisualFSharpFull\VisualFSharpFull.csproj" />
-    <ProjectFiles Include="Vsix\VisualFSharpTemplates\VisualFSharpTemplates.csproj" />
+    <VsixProjects Include="Vsix\FSharp.Compiler\FSharp.Compiler.csproj" />
+    <VsixProjects Include="Vsix\VisualFSharpFull\VisualFSharpFull.csproj" />
+    <VsixProjects Include="Vsix\VisualFSharpTemplates\VisualFSharpTemplates.csproj" />
   </ItemGroup>
 
   <Import Project="..\src\root.traversal.targets"/>
